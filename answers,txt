@@ -1,0 +1,11 @@
+Q1. By socket.socket(socket.AF_INET, socket.SOCK_STREAM). The arg SOCK_STREAM Provides sequenced, reliable, two-way, connection-based byte streams, which defines TCP. 
+
+Q2. They are different in how they are used. A server binds to an address and port, and accepts requests. A client connects to an address and port.
+
+Q3. bY s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1). The arg socket.SO_REUSEADDR lets OS bind to the same port address again.
+
+Q4. You get the connection and the address of the connection. 
+
+Q5. These calls return the number of bytes received, or -1 if an error occurred. When the stream socket has shutdown, the return value will be 0. 
+
+Q6.
